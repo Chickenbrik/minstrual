@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Мой адаптивный сайт</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-image: url('https://frutonyanya.ru/upload/school_articles/preg_calendar/17_Fotolia_62647605_S.jpg'); 
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-attachment: fixed;
+      background-size: cover;
+      font-family: Arial, sans-serif;
+      color: white;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    nav {
+      width: 100%;
+      padding: 2% 0;
+      background-color: rgba(0, 0, 0, 0.6);
+      text-align: center;
+    }
+
+    nav a {
+      display: inline-block;
+      margin: 1% 2%;
+      padding: 1% 3%;
+      font-size: 2vw;
+      color: white;
+      text-decoration: none;
+      background-color: rgba(255, 255, 255, 0.2);
+      border-radius: 0.5em;
+      text-shadow:
+        -1px -1px 0 black,
+         1px -1px 0 black,
+        -1px  1px 0 black,
+         1px  1px 0 black;
+    }
+
+    nav a:hover {
+      background-color: rgba(255, 255, 255, 0.4);
+    }
+
+    .content {
+      max-width: 90%;
+      margin: 0 auto;
+      padding: 5% 0;
+      text-align: center;
+    }
+
+    h1, h2, h3, p, ul, li, em, a {
+      font-size: 2.2vw;
+      margin: 2% auto;
+      line-height: 1.5;
+      text-align: center;
+      max-width: 90%;
+      text-shadow:
+        -1px -1px 0 black,
+         1px -1px 0 black,
+        -1px  1px 0 black,
+         1px  1px 0 black;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    li::before {
+      content: "• ";
+      color: white;
+    }
+
+    img {
+      max-width: 90%;
+      height: auto;
+      display: block;
+      margin: 2% auto;
+      border-radius: 1em;
+    }
+
+              .back-button {
+    display: inline-block;
+    position: fixed;
+    top: 3%;
+    left: 3%;
+    padding: 1.5vh 3vw;
+    font-size: 2.5vw;
+    text-decoration: none;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+    border: 0.3vw solid white;
+    border-radius: 1vw;
+    z-index: 1000;
+    transition: background-color 0.3s ease;
+   }
+
+  </style>
+</head>
+ <body>
+    <h1>Беременость и аборты</h1> 
+        <section>
+          <div class="back-button">
+            <p>Назад</p>
+          </div>
+        </section>
+        <section>
+          <h3>Этапы беременности</h3>
+          <img src="https://www.primamedica.ru/upload/iblock/691/a6dw4h5ujd6bw6jhnl849hqubqhqhzpe.jpg">
+          <p>Первый триместр (до 3 месяцев):</p>
+           <ul>
+            <li>Малыш только начинает формироваться</li>
+            <li>Часто бывает токсикоз (тошнота, слабость)</li>
+           </ul>
+          <p>Второй триместр (4–6 месяц):</p>
+            <ul>
+             <li>Малыш растёт</li>
+             <li>Живот становится заметным</li>
+             <li>Может появиться первое шевеление</li>
+            </ul>
+          <p>Третий триместр (7–9):</p>
+            <ul>
+              <li>Организм готовится к родам</li>
+              <li>Малыш уже почти готов к жизни вне тела</li>
+            </ul>
+          <p>Подробнее можно узнать <a target="_blank" href="https://ru.wikipedia.org/wiki/%D0%A2%D0%B5%D1%87%D0%B5%D0%BD%D0%B8%D0%B5_%D0%B1%D0%B5%D1%80%D0%B5%D0%BC%D0%B5%D0%BD%D0%BD%D0%BE%D1%81%D1%82%D0%B8_%D1%83_%D1%87%D0%B5%D0%BB%D0%BE%D0%B2%D0%B5%D0%BA%D0%B0"> здесь</a>
+        </section>
+        <section>
+          <h3>Виды аборта</h3>
+          <img src="https://crblen.ru/images/med-prof/2024/abort/hirab.jpg">
+          <p>Таблетки — до 9 недель. Просто выпиваешь, и всё выходит само.</p>
+          <p>Вакуум — до 12 недель. Врач делает всё через специальный аппарат.</p>
+          <p>Хирургический (выскабливание) — после 12 недель, если есть серьёзные причины.</p>
+          <p>Подробнее можно узнать <a target="_blank" href="https://ru.wikipedia.org/wiki/%D0%90%D0%B1%D0%BE%D1%80%D1%82"> здесь</a>
+        </section>
+        <section>
+          <h3> Когда можно делать аборт</h3>
+          <img src="https://www.medcentrservis.ru/upload/cssinliner_webp/medialibrary/fb0/hirurgicheskiy_abort_2.webp">
+          <p>До 12 недель — можно по своему желанию</p>
+          <p>До 22 недель — если беременность опасна или есть проблемы</p>
+          <p>После 22 недель — только если жизнь под угрозой</p>
+          <p>Подробнее можно узнать <a target="_blank" href="https://ru.wikipedia.org/wiki/%D0%90%D0%B1%D0%BE%D1%80%D1%82"> здесь</a>
+        </section>
+ </body>
+</html>
